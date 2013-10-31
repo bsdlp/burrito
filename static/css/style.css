@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400italic,400|Inconsolata);
+::selection{background:#1070C0;color:#DBDBDB;}
+::-moz-selection{background:#1070C0;color:#DBDBDB;}
+::-webkit-selection{background:#1070C0;color:#DBDBDB;}
+body{font-family: 'Source Sans Pro', sans-serif;font-size:90%;line-height:1.5;margin:0;padding:0;padding-top:4em;text-align:center;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
+#wrap{margin:0 auto;text-align:left;width:90em;}
+#content{font-size:1.2em;float:left;padding:1em;width:58em;position:relative;padding-bottom:1.75em;}
+#sidebar{font-size:1.1em;float:right;padding-top:2em;width:15em;text-transform:uppercase}
+#header{padding:2em 1em;text-transform:uppercase;text-align:left}
+#footer{color:#333;clear:both;font-size:1em;padding-top:1em;position:absolute;bottom:0;height:1.25em;}
+h1, h2, h3{font-family:"Source Sans Pro", "Lucida Sans", "sans-serif", Arial;font-weight:400;letter-spacing:-1px;margin:0;}
+#header h1{font-family:"Source Sans Pro", "Lucida Sans", "sans-serif", Arial;font-size:3em;margin:0;margin-right:0em;}
+#header h1 a{color:#1070C0;}
+#header h1 a:hover{color:#1cc644;}
+#header p{color:#aaa;font-size:1.1em;margin:0;margin-top:-0.5em;}
+.entrytitle h2{font-size:1.8em;}
+.entrytitle h2 a{color:#555555;}
+.entrytitle h2 a:hover{color:#1cc644;}
+.entrytitle h3{font-size:1.2em;color:#555;}
+#sidebar h3{color:#555;font-size:1.5em;margin:1em 0;}
+.entry{margin-bottom:1em;}
+.entrymeta{font-size:0.9em;}
+#sidebar ul{list-style-type:none;margin:0;padding:0;}
+#sidebar ul li{margin-bottom:0.3em;padding:0.3em;}
+div.comment_header {}
+div.comment_gravatar {float:left;width:50px;}
+div.comment_author {float:left;width:100px;}
+div.comment_moderation {float:left;}
+.commentsblock{margin:0.5em;padding:1em;}
+.commentsblock textarea{width:35em;}
+.commentsblock input, .commentsblock textarea{border:1px solid #d1d1d1;}
+.commentsblock textarea:focus{background:#eee;border:1px solid #a1a1a1;}
+.commentsblock textarea:focus, .commentsblock input:focus{background:#eee;border:1px solid #a1a1a1;}
+.commentauthor{display:block;font-size:1.5em;}
+ol.commentlist{color:#777;font-size:0.9em;list-style-type:none;margin:0;margin-top:1.5em;padding:0;}
+.commentlist li{margin-bottom:0.5em;padding:0.5em 1em;}
+.alt{background:#f3f5e9;border:1px dotted #d1d1d1;padding:0.5em;}
+h3#comments{font-size:1.6em;}
+a{color:#1070C0;text-decoration:none;}
+a:hover{color:#1CC644;}
+code{font-family:"Inconsolata", "Menlo", "Monaco", "Lucida Console";font-size:90%;border:1px solid;border-radius:2px;display:block;margin-top:4px;margin-bottom:12px;padding:6px;line-height:1.5;border-radius:4px 4px 4px 4px;border:1px solid rgb(204,204,204);background-color:rgb(248,248,248);}
+dt.about{font-size:1.5em;border-bottom:1px solid rgba(85, 85, 85, 0.5);width:10em;padding-bottom:0.10em;padding-top:3em;}
+dd.about{padding-top:1em;}
+dt.top_dt{padding-top:0;}
+#about_container{overflow:hidden;text-align:left;margin:0px auto;padding:0px;border:0;width:100%;}
+#about_right{float:left;width:75%;overflow:hidden;}
+#about_left{float:left;width:25%;overflow:hidden;}
+div.gravatar_w_caption{padding-bottom:0.5em;width:160px;background-color:#555555;color:#EEEEEE;}
+div.gravatar_w_caption h2{text-align:center;}
+.author_entry a{font-style:italic;color:#555555;}
+.author_entry a:hover{color:#1CC644;}
+.author_entry dd{padding-top:0em;padding:0em;}
+div.author_entry{padding-top:1em;}
