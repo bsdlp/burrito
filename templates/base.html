@@ -71,9 +71,18 @@
             <p>&#169; 2013 {{ SITENAME }}.</p>
         </footer><!--/#contentinfo #footer-->
 
-    {% include 'analytics.html' %}
-    {% include 'piwik.html' %}
-    {% include 'disqus_script.html' %}
+        {% if GOOGLE_ANALYTICS
+            {% include 'analytics.html' %}
+        {% endif %}
+
+        {% if PIWIK_URL and PIWIK_SITE_ID %}
+            {% include 'piwik.html' %}
+        {% endif %}
+
+        {% if DISQUS_SITENAME %}
+            {% include 'disqus_script.html' %}
+        {% endif %}
+
     </body>
 </html>
 
