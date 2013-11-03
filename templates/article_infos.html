@@ -9,7 +9,9 @@
         </address>
         {% endif %}
 <p>In <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
-{% include 'taglist.html' %}
+{% if article.tags %}
+    {% include 'taglist.html' %}
+{% endif %}
 {% import 'translations.html' as translations with context %}
 {{ translations.translations_for(article) }}
 </footer><!-- /.post-info -->
