@@ -2,4 +2,5 @@
 ::selection{background:#1070C0;color:#DBDBDB;}
 ::-moz-selection{background:#1070C0;color:#DBDBDB;}
 ::-webkit-selection{background:#1070C0;color:#DBDBDB;}
+body{font-family: 'Source Sans Pro', sans-serif;font-size:16px;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
 
