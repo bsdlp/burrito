@@ -6,4 +6,5 @@ body{font-family: 'Source Sans Pro', sans-serif;font-size:14px;line-height:1.5;m
 ul.navbar{list-style-type: none;padding:0;margin:0;}
 #wrap{margin:0 auto;text-align:left;width:90em;}
 #content, article{font-size:1.2em;float:left;padding:5%;width:85%;position:relative;padding-bottom:1.75em;}
+section#extras{display:none;}
 
