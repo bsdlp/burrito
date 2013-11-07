@@ -2,17 +2,17 @@
 ::selection{background:#1070C0;color:#DBDBDB;}
 ::-moz-selection{background:#1070C0;color:#DBDBDB;}
 ::-webkit-selection{background:#1070C0;color:#DBDBDB;}
-body{font-family: 'Source Sans Pro', sans-serif;font-size:90%;line-height:1.5;margin:0;padding:0;padding-top:4em;text-align:center;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
+body{font-family: 'Source Sans Pro', sans-serif;font-size:90%;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
 #wrap{margin:0 auto;text-align:left;width:90em;}
-#content{font-size:1.2em;float:left;padding:1em;width:58em;position:relative;padding-bottom:1.75em;}
+#content, article{font-size:1.2em;float:left;padding:1em;width:58em;position:relative;padding-bottom:1.75em;}
 #sidebar{font-size:1.1em;float:right;padding-top:2em;width:15em;text-transform:uppercase}
-#header{padding:2em 1em;text-transform:uppercase;text-align:left}
-#footer{color:#333;clear:both;font-size:1em;padding-top:1em;position:absolute;bottom:0;height:1.25em;}
+header{padding:2em 1em;text-transform:uppercase;text-align:left}
+footer{color:#333;clear:both;font-size:1em;padding-top:1em;position:absolute;bottom:0;height:1.25em;}
 h1, h2, h3{font-family:"Source Sans Pro", "Lucida Sans", "sans-serif", Arial;font-weight:400;letter-spacing:-1px;margin:0;}
-#header h1{font-family:"Source Sans Pro", "Lucida Sans", "sans-serif", Arial;font-size:3em;margin:0;margin-right:0em;}
-#header h1 a{color:#1070C0;}
-#header h1 a:hover{color:#1cc644;}
-#header p{color:#aaa;font-size:1.1em;margin:0;margin-top:-0.5em;}
+header h1{font-family:"Source Sans Pro", "Lucida Sans", "sans-serif", Arial;font-size:3em;margin:0;margin-right:0em;}
+header h1 a{color:#1070C0;}
+header h1 a:hover{color:#1cc644;}
+header p{color:#aaa;font-size:1.1em;margin:0;margin-top:-0.5em;}
 .entrytitle h2{font-size:1.8em;}
 .entrytitle h2 a{color:#555555;}
 .entrytitle h2 a:hover{color:#1cc644;}
@@ -51,3 +51,4 @@ div.gravatar_w_caption h2{text-align:center;}
 .author_entry a:hover{color:#1CC644;}
 .author_entry dd{padding-top:0em;padding:0em;}
 div.author_entry{padding-top:1em;}
+ul.navbar{list-style-type:none;padding:0;margin:0;}
