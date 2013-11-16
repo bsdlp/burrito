@@ -4,6 +4,7 @@
 ::-webkit-selection{background:#1070C0;color:#DBDBDB;}
 body{font-family: 'Source Sans Pro', sans-serif;font-size:14px;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
 ul.navbar{list-style-type: none;padding:0;margin:0;}
+blockquote{font-style:italic;}
 #wrap{margin:0 auto;text-align:left;width:90em;}
 #content, article{font-size:1.2em;float:left;padding:5%;width:85%;position:relative;padding-bottom:1.75em;}
 section#extras{display:none;}
