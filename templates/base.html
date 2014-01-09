@@ -19,7 +19,7 @@
     <body id="index" class="home">
         <div id="wrap">
             <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <h1 class="site-title"><a href="{{ SITEURL }}/">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul class="navbar">
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
