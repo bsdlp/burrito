@@ -2,10 +2,10 @@
 ::selection{background:#1070C0;color:#DBDBDB;}
 ::-moz-selection{background:#1070C0;color:#DBDBDB;}
 ::-webkit-selection{background:#1070C0;color:#DBDBDB;}
-body{font-family: 'Source Sans Pro', sans-serif;font-size:14px;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
+body{font-family: 'Source Sans Pro', sans-serif;font-size:16px;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
 ul.navbar{list-style-type: none;padding:0;margin:0;}
 blockquote{font-style:italic;}
-h1.entry-title{font-size:1.8em;font-weight:400;}
+h1.entry-title{font-size:2em;font-weight:400;}
 h1.entry-title a{color:#555555;}
 h1.entry-title a:hover{color:#1cc644;}
 a{color:#1070C0;text-decoration:none;}
