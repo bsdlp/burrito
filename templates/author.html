@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+    <div class="author-title">
+        <h1 class="author-header">{{ AUTHOR_FULLNAME }}</h1>
+        <p><a href="#" class="gravatar-link" data-name="{{ AUTHOR }}">
+            <img class="gravatar-img" src="{{ author_gravatar }}" alt="{{ AUTHOR }}-gravatar">
+        </a></p>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="author-content">
+    </div>
+{% endblock %}
+
