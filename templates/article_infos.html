@@ -1,7 +1,6 @@
 <footer class="post-info">
     <abbr class="published" title="{{ article.date.isoformat() }}">
-        {{ article.locale_date }}
+        Posted on {{ article.locale_date }} | {% include 'tags.html' %}
     </abbr>
-    {% include 'tags.html' %}
 </footer><!-- /footer-post-info -->
 
