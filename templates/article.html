@@ -13,19 +13,7 @@
             {{ article.content }}
             {% include 'article_infos.html' %}
         </div><!-- /.entry-content -->
-        {% if DISQUS_SITENAME %}
-            <div class="comments">
-                <div id="disqus_thread"></div>
-                <script type="text/javascript">
-                    var disqus_identifier = "{{ article.url }}";
-                    (function() {
-                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                        dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                    })();
-                </script>
-            </div>
-        {% endif %}
+        {% include 'gplus_comments.html' %}
     </article>
 </section>
 {% endblock %}
