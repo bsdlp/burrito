@@ -43,7 +43,7 @@ h1 a {
 }
 
 h3.entry-title {
-    line-height: 0;
+    margin-bottom: 0.25em;
     text-align: left;
 }
 
