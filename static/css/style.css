@@ -20,6 +20,16 @@ a#entry-title-link {
     color: #7F7F7F;
 }
 
+article.entry {
+    padding: 0.7em;
+}
+
+aside.entry-title-date {
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 0.7em;
+}
+
 footer#footer {
     font-size: 0.7em;
 }
@@ -30,6 +40,11 @@ h1.entry-title {
 
 h1 a {
     text-decoration: none;
+}
+
+h3.entry-title {
+    line-height: 0;
+    text-align: left;
 }
 
 nav {
