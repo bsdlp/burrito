@@ -36,6 +36,10 @@ nav {
     text-align: center;
 }
 
+ol#posts-list {
+    list-style-type: none;
+}
+
 pre {
     font-family: 'Anonymous Pro', Monaco, monospace;
     font-size: 1em;
