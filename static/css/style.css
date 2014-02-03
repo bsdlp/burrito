@@ -32,6 +32,10 @@ h1 a {
     text-decoration: none;
 }
 
+nav {
+    text-align: center;
+}
+
 pre {
     font-family: 'Anonymous Pro', Monaco, monospace;
     font-size: 1em;

@@ -18,7 +18,8 @@
         {% if SITETAGLINE %}
         <div id="tagline">{{ SITETAGLINE }}</div>
         {% endif %}
-        <nav>
+        <nav class="navbar">
+            <hr>
             {% for title, link in MENUITEMS %}
                 <a href="{{ link }}">{{ title }}</a>&nbsp;
             {% endfor %}
@@ -30,6 +31,7 @@
             {% for category, _ in categories %}
                 <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>&nbsp;
             {% endfor %}
+            <hr>
         </nav>
     </header><!-- /header-siteheader -->
     {% block content %}
