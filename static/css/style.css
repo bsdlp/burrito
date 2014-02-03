@@ -30,6 +30,10 @@ aside.entry-title-date {
     line-height: 0.7em;
 }
 
+blockquote {
+    font-style: italic;
+}
+
 footer#footer {
     font-size: 0.7em;
 }
