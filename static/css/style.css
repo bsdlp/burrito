@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300italic,300,Anonymous+Pro);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    text-rendering: optimizeLegibility;
+    width: 635px;
+}
+
+a {
+    color: #1070C0;
+}
+
+pre {
+    font-family: 'Anonymous Pro', Monaco, monospace;
+    font-size: 1em;
+}
+
+.entry-title {
+    font-family: 'Open Sans', sans-serif;
+}
+h1.entry-title {
+    font-size: 2em;
+}
+
+#siteheader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5em;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+.post-info {
+    font-size: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+footer#footer {
+    font-size: 0.7em;
+}
+
