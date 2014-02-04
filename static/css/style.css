@@ -1,17 +1,87 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400italic,400|Inconsolata);
-::selection{background:#1070C0;color:#DBDBDB;}
-::-moz-selection{background:#1070C0;color:#DBDBDB;}
-::-webkit-selection{background:#1070C0;color:#DBDBDB;}
-body{font-family: 'Source Sans Pro', sans-serif;font-size:16px;line-height:1.5;margin:0;padding:0;padding-top:4em;background-color:#EEEEEE;text-rendering:optimizeLegibility;height:100%;font-weight:300;}
-ul.navbar{list-style-type: none;padding:0;margin:0;}
-blockquote{font-style:italic;}
-h1.site-title{font-size:3em;font-weight:400;}
-h1.entry-title{font-size:2em;font-weight:400;}
-h1.entry-title a{color:#555555;}
-h1.entry-title a:hover{color:#1cc644;}
-a{color:#1070C0;text-decoration:none;}
-a:hover{color:#1CC644;}
-#wrap{margin:0 auto;text-align:left;width:90em;}
-#content, article{font-size:1.2em;float:left;padding:5%;width:85%;position:relative;padding-bottom:1.75em;}
-section#extras{display:none;}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300italic,300,Anonymous+Pro);
+
+body {
+    color: #403E3F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    text-rendering: optimizeLegibility;
+    width: 635px;
+}
+
+a {
+    color: #1070C0;
+}
+
+a#entry-title-link {
+    color: #7F7F7F;
+}
+
+article.entry {
+    padding: 0.7em;
+}
+
+aside.entry-title-date {
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 0.7em;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+footer#footer {
+    font-size: 0.7em;
+}
+
+h1.entry-title {
+    font-size: 2.5em;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h3.entry-title {
+    margin-bottom: 0.25em;
+    text-align: left;
+}
+
+nav {
+    text-align: center;
+}
+
+ol#posts-list {
+    list-style-type: none;
+}
+
+pre {
+    font-family: 'Anonymous Pro', Monaco, monospace;
+    font-size: 1em;
+}
+
+.entry-title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.highlight {
+    padding-left: 0.7em;
+}
+
+.post-info {
+    font-size: 0.7em;
+    padding-top: 1.4em;
+    padding-bottom: 0.7em;
+}
+
+#siteheader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
 
