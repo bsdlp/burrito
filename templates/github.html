@@ -1,0 +1,9 @@
+<div class="github social">
+   <h3>Github Activity</h3>
+   <ul>
+   {% for entry in github_activity %}
+       <li><b>{{ entry[0] }}</b><br /> {{ entry[1] }}</li>
+   {% endfor %}
+   </ul>
+</div><!-- /.github_activity -->
+
