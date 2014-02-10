@@ -37,7 +37,11 @@
 
 <body>
     <header id="sitehead">
-        <h1 id="siteheader"><a href="{{ SITEURL }}">{% if SITELOGOIMG %}<img src="{{ SITELOGOIMG }}">{% else %} {{ SITENAME }} {% endif %} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+        <div class="sitehead">
+            <span id="sitehead">
+                <a href="{{ SITEURL }}">{{ SITENAME|upper() }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+            </span>
+        </div>
         {% if SITETAGLINE %}
         <div id="tagline">{{ SITETAGLINE }}</div>
         {% endif %}

@@ -85,3 +85,25 @@ pre {
     text-align: center;
 }
 
+div.sitehead {
+    border: 10px solid #1070C0;
+    font-size: 100px;
+    height: 156px;
+    line-height: 140px;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+span#sitehead {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+span#sitehead a {
+    color: black;
+    text-decoration: none;
+}
+
