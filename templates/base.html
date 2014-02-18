@@ -22,8 +22,10 @@
 
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css">
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css">
+    {% assets filters="cssmin", output="css/pygments.css", "css/style.css" %}
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    {% endassets %}
+
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="{{ SITEURL }}/theme/img/favicon.ico">
 
