@@ -62,6 +62,10 @@ ol#posts-list {
 pre {
     font-family: 'Anonymous Pro', Monaco, monospace;
     font-size: 0.8em;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 .entry-title {
