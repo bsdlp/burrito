@@ -22,7 +22,7 @@
 
     <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
-    {% assets filters="cssmin", output="css/pygments.css", "css/style.css" %}
+    {% assets filters="cssmin", output="css/style.min.css", "css/style.css", "css/pygments.css" %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
