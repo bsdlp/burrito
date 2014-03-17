@@ -66,6 +66,12 @@ ol#posts-list {
     list-style-type: none;
 }
 
+.paginationer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 pre {
     font-family: 'Anonymous Pro', Monaco, monospace;
     font-size: 0.8em;
