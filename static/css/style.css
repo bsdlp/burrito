@@ -53,6 +53,11 @@ h3.entry-title {
     text-align: left;
 }
 
+hr {
+    color: #403E3F;
+    background-color: #403E3F;
+}
+
 nav {
     text-align: center;
 }
