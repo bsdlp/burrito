@@ -43,7 +43,7 @@
     <header id="sitehead">
         <div class="sitehead">
             <span id="sitehead">
-                <a href="{{ SITEURL }}">{{ SITENAME|upper() }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+                <a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
             </span>
         </div>
         {% if SITETAGLINE %}
@@ -62,7 +62,6 @@
             {% for category, _ in categories %}
                 <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>&nbsp;
             {% endfor %}
-            <hr>
         </nav>
     </header><!-- /header-siteheader -->
     {% block content %}
