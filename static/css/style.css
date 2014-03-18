@@ -80,6 +80,10 @@ pre {
     word-wrap: break-word;
 }
 
+#about {
+    text-align: center;
+}
+
 .entry-title {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
