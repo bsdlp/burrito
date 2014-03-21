@@ -51,16 +51,16 @@
         {% endif %}
         <nav class="navbar">
             <hr>
-            {% for title, link in MENUITEMS %}
-                <a href="{{ link }}">{{ title }}</a>&nbsp;
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-            {% for page in PAGES %}
-                <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp;
-            {% endfor %}
-            {% endif %}
             {% for category, _ in categories %}
                 <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>&nbsp;
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in PAGES %}
+                    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp;
+                {% endfor %}
+            {% endif %}
+            {% for title, link in MENUITEMS %}
+                <a href="{{ link }}">{{ title }}</a>&nbsp;
             {% endfor %}
         </nav>
     </header><!-- /header-siteheader -->
