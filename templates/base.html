@@ -50,7 +50,6 @@
         <div id="tagline">{{ SITETAGLINE }}</div>
         {% endif %}
         <nav class="navbar">
-            <hr>
             {% for category, _ in categories %}
                 <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>&nbsp;
             {% endfor %}
