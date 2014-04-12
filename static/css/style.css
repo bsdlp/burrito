@@ -1,10 +1,10 @@
-@import url(//brick.a.ssl.fastly.net/Open+Sans:400i,400,300i,300/Anonymous+Pro:400);
+@import url(//brick.a.ssl.fastly.net/Open+Sans:400i,400/Anonymous+Pro:400);
 
 body {
     color: #403E3F;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
