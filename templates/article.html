@@ -9,6 +9,15 @@
             </h1>
         </header>
 
+        {% if article.header_img %}
+        <div class="entry-header-img">
+            <figure>
+                <a href="{{ article.header_img_link }}"><img src="{{ article.header_img }}" alt="{{ article.header_img_alt }}"></a>
+                <figcaption>{{ article.header_img_caption }}</figcaption>
+            </figure>
+        </div>
+        {% endif %}
+
         <div class="entry-content">
             {{ article.content }}
             {% include 'article_infos.html' %}
