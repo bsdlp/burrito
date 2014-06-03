@@ -53,6 +53,7 @@ h3.entry-title {
 }
 
 nav {
+    border-top: 1px solid #403E3F;
     text-align: center;
 }
 
@@ -112,7 +113,6 @@ div.sitehead {
     margin: auto;
     text-align: center;
     width: 100%;
-    border-bottom: 1px solid #403E3F;
 }
 
 span#sitehead {
