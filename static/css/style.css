@@ -127,3 +127,9 @@ span#sitehead a {
     text-decoration: none;
 }
 
+#tagline {
+    margin: auto;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 100%;
+}

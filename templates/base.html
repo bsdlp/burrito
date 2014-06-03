@@ -43,11 +43,13 @@
     <header id="sitehead">
         <div class="sitehead">
             <span id="sitehead">
-                <a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+                <a href="{{ SITEURL }}">{{ SITENAME }}</a>
             </span>
         </div>
         {% if SITETAGLINE %}
-        <div id="tagline">{{ SITETAGLINE }}</div>
+            <div id="tagline">
+                <strong>{{ SITETAGLINE }}</strong>
+            </div>
         {% endif %}
         <nav class="navbar">
             {% for category, _ in categories %}
