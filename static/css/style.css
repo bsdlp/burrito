@@ -1,4 +1,4 @@
-@import url(//brick.a.ssl.fastly.net/Source+Sans+Pro:400i,400/Source+Code+Pro:400);
+@import url(//brick.a.ssl.fastly.net/Source+Sans+Pro:400i,400/Source+Code+Pro:400/Lato:300);
 
 body {
     color: #403E3F;
@@ -100,12 +100,6 @@ pre {
     padding-bottom: 0.7em;
 }
 
-#siteheader {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
-
 div.sitehead {
     font-size: 100px;
     height: 156px;
@@ -117,9 +111,15 @@ div.sitehead {
 
 span#sitehead {
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     line-height: normal;
     vertical-align: middle;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
 }
 
 span#sitehead a {
