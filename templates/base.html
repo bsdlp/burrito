@@ -26,6 +26,14 @@
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
+    {% if article %}
+        {% if article.styles %}
+            {% for style in article.styles %}
+                {{ style }}
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="{{ SITEURL }}/theme/img/favicon.ico">
 
@@ -104,5 +112,14 @@
     {% include 'analytics.html' %}
 
 </body>
+
+{% if article %}
+    {% if article.scripts %}
+        {% for script in article.scripts %}
+            {{ script }}
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
 </html>
 
