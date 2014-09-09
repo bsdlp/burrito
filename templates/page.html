@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
+
+{% block extra_css %}
+    {% if page %}
+        {% if page.styles %}
+            {% for style in page.styles %}
+                {{ style }}
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
 {% block content %}
     <section id="content" class="body">
     <h1 class="entry-title">{{ page.title }}</h1>
@@ -7,3 +18,12 @@
 </section>
 {% endblock %}
 
+{% block extra_js %}
+    {% if page %}
+        {% if page.scripts %}
+            {% for script in page.scripts %}
+                {{ script }}
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+{% endblock %}

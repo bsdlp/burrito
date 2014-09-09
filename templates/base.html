@@ -26,13 +26,7 @@
         <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
     {% endassets %}
 
-    {% if article %}
-        {% if article.styles %}
-            {% for style in article.styles %}
-                {{ style }}
-            {% endfor %}
-        {% endif %}
-    {% endif %}
+    {% block extra_css %}{% endblock %}
 
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/img/favicon.ico" />
     <link rel="icon" sizes="16x16 32x32" href="{{ SITEURL }}/theme/img/favicon.ico">
@@ -113,13 +107,6 @@
 
 </body>
 
-{% if article %}
-    {% if article.scripts %}
-        {% for script in article.scripts %}
-            {{ script }}
-        {% endfor %}
-    {% endif %}
-{% endif %}
-
+{% block extra_js %}{% endblock %}
 </html>
 
