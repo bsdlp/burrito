@@ -12,6 +12,12 @@ body {
     width: 635px;
 }
 
+div#feed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 635px;
+}
+
 a {
     color: #1070C0;
 }

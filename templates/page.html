@@ -19,6 +19,22 @@
             {% endfor %}
         {% endif %}
     {% endif %}
+    <script type="text/javascript">
+        function updateFeed(username) {
+            GitHubActivity.feed({ username: username, selector: '#feed' });
+        }
+
+        $(document).ready(function() {
+            updateFeed('fly');
+
+            $('#update').click(function() { updateFeed($("#username").val()); });
+            $("#username").keypress(function(e) {
+                if (e.which === 13) {
+                    updateFeed($("#username").val());
+                }
+            });
+        });
+    </script>
 {% endblock %}
 
 {% block content %}
