@@ -11,13 +11,6 @@
     {% endif %}
 {% endblock %}
 
-{% block content %}
-    <section id="content" class="body">
-    <h1 class="entry-title">{{ page.title }}</h1>
-    {{ page.content }}
-</section>
-{% endblock %}
-
 {% block extra_js %}
     {% if page %}
         {% if page.scripts %}
@@ -26,4 +19,11 @@
             {% endfor %}
         {% endif %}
     {% endif %}
+{% endblock %}
+
+{% block content %}
+    <section id="content" class="body">
+    <h1 class="entry-title">{{ page.title }}</h1>
+    {{ page.content }}
+</section>
 {% endblock %}
